@@ -295,13 +295,14 @@ a {
 margin-left: 10px;
 }
 
-.social-link a {
+.ln {
   width: 44px; 
 	height: 44px; 
 	border-radius: 50%;
 }
 
-.social-link:hover .social-icon, .social-link:focus .social-icon {
+
+.ln:hover .social-icon, .ln:focus .social-icon {
   fill: var(--accent-color);
   background-color: var(--hover-link-color);
 }
